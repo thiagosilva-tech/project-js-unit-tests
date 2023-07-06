@@ -22,11 +22,9 @@ const vqv = (name, age) => {
   if (typeof name !== 'string' || typeof age !== 'number') {
     return undefined;
   }
-  const message = `Oi, meu nome é ${name}!\n` 
-    + `Tenho ${age} anos,\n` 
-    + `trabalho na Trybe e mando muito em programação!\n` 
-    + `#VQV!`;
-  return message;
+  const message = `Oi, meu nome é ${name}!\nTenho ${age} anos,\n`;
+  const message1 = 'trabalho na Trybe e mando muito em programação!\n#VQV!';
+  return message + message1;
 };
 
 module.exports = vqv;
